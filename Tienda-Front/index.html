@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRUD Visual de API REST</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Panel de Gestión</h1>
+  </header>
+  <main>
+    <section class="crud-grid">
+      <!-- Clientes -->
+      <div class="card">
+        <h2>Clientes</h2>
+        <form id="clienteForm">
+          <input type="text" id="nombre" placeholder="Nombre" required />
+          <input type="text" id="apellido" placeholder="Apellido" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="number" id="ine" placeholder="INE" required />
+          <input type="text" id="numCliente" placeholder="Numero de Cliente" required/>
+          <button type="submit">Crear Cliente</button>
+          
+        </form>
+        <div id="clienteResumen" class="resumen"></div>
+        <ul id="clienteList"></ul>
+      </div>
+      <!-- Actualizar Cliente -->
+      <div class="card">
+        <h3>Actualizar Cliente por ID</h3>
+          <form id="actualizarClienteForm">
+            <input type="number" id="updateId" placeholder="ID del Cliente" required />
+            <textarea id="updateData" placeholder='{"nombre":"Nuevo Nombre","apellido":"Nuevo Apellido","email":"nuevo@example.com","ine":123456,"numCliente":"999"}' rows="6" required></textarea>
+            <button type="submit">Actualizar Cliente</button>
+          </form>
+          <div id="actualizarClienteResumen" class="resumen"></div>
+        </div>
+
+      <!-- Productos -->
+      <div class="card">
+        <h2>Productos</h2>
+        <form id="productoForm">
+          <input type="text" id="titulo" placeholder="Título" required />
+          <input type="text" id="descripcion" placeholder="Descripción" required />
+          <input type="number" id="precio" placeholder="Precio" required />
+          <input type="number" id="stock" placeholder="Stock" required />
+          
+          <button type="submit">Crear Producto</button>
+        </form>
+        <div id="productoResumen" class="resumen"></div>
+        <ul id="productoList"></ul>
+      </div>
+
+      <!-- Actualizar Producto -->
+      <div class="card">
+        <h3>Actualizar Producto por ID</h3>
+        <form id="actualizarProductoForm">
+          <input type="number" id="productoIdUpdate" placeholder="ID del Producto" required />
+          <textarea id="productoDataUpdate" placeholder='{
+        "titulo": "Nuevo título",
+        "descripcion": "Nueva descripción",
+        "precio": 1234,
+        "stock": 10
+      }' rows="6" required></textarea>
+          <button type="submit">Actualizar Producto</button>
+        </form>
+        <div id="actualizarProductoResumen" class="resumen"></div>
+      </div>
+
+     <!-- Categorías -->
+<div class="card">
+  <h2>Categorías</h2>
+  <form id="categoriaForm">
+    <input type="text" id="nombreCategoria" placeholder="Nombre Categoría" required />
+    <button type="submit">Crear Categoría</button>
+  </form>
+  <div id="categoriaResumen" class="resumen"></div>
+
+  <!-- ✅ Aquí va la lista -->
+  <ul id="listaCategorias" style="padding: 1rem;"></ul>
+
+  <h3>Asignar Producto a Categoría</h3>
+  <label for="productoId">ID del Producto:</label>
+  <input type="number" id="productoId" placeholder="Ej. 2"><br>
+
+  <label for="categoriaId">ID de la Categoría:</label>
+  <input type="number" id="categoriaId" placeholder="Ej. 2"><br>
+  <button onclick="asignarCategoria()">Asignar Categoría</button>
+
+  <h3>Eliminar Categoría por ID</h3>
+  <form id="eliminarCategoriaForm">
+    <input type="number" id="categoriaIdDelete" placeholder="ID de Categoría" required />
+    <button type="submit">Eliminar Categoría</button>
+  </form>
+  <div id="eliminarCategoriaResumen" class="resumen"></div>
+
+  <h3>Actualizar Categoría por ID</h3>
+  <form id="actualizarCategoriaForm">
+    <input type="number" id="categoriaIdUpdate" placeholder="ID de Categoría" required />
+    <textarea id="categoriaDataUpdate" placeholder='{
+      "nombre": "Nueva categoría"
+    }' rows="3" required></textarea>
+    <button type="submit">Actualizar Categoría</button>
+  </form>
+  <div id="actualizarCategoriaResumen" class="resumen"></div>
+  <pre id="respuesta"></pre>
+</div>
+
+      
+      <!-- Ventas -->
+      <div class="card">
+        <h2>Ventas</h2>
+        <form id="ventaForm">
+          <input type="number" id="clienteVentaId" placeholder="ID Cliente" required />
+          
+          <textarea id="lineasVenta" rows="5" placeholder='[
+        { "producto": { "id": 1 }, "cantidad": 2 },
+        { "producto": { "id": 2 }, "cantidad": 1 }
+      ]' required></textarea>
+          
+          <button type="submit">Crear Venta</button>
+        </form>
+
+        <!-- Resumen bonito de la venta creada -->
+        <pre id="ventaResumen" class="resumen" style="background-color:#f4f4f4; padding:1em; border-radius:8px;"></pre>
+
+        <!-- Lista de ventas creadas -->
+        <ul id="ventaList" style="margin-top: 1em;"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Miguel's CRUD API Visual Interface</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
