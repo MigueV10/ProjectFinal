@@ -2092,3 +2092,6 @@ org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/BaseDato
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-28 19:40:05.400
 !MESSAGE close() called when useCnt is already zero for Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\proyecto\.git]
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-28 19:41:11.219
+!MESSAGE Can't connect to any repository: 
