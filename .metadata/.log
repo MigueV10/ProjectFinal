@@ -2049,3 +2049,46 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-28 13:13:00.495
 !MESSAGE Classpath changed for project: crud_proyecto
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-28 19:33:03.984
+!MESSAGE close() called when useCnt is already zero for Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\.git]
+
+!ENTRY org.eclipse.egit.core 4 0 2025-05-28 19:33:22.178
+!MESSAGE An exception occurred during push on URI https://github.com/MigueV10/BaseDatosProyect.git: https://github.com/MigueV10/BaseDatosProyect.git: git-receive-pack not permitted on 'https://github.com/MigueV10/BaseDatosProyect.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/BaseDatosProyect.git: git-receive-pack not permitted on 'https://github.com/MigueV10/BaseDatosProyect.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:701)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-28 19:33:22.187
+!MESSAGE Can't connect to any repository: https://github.com/MigueV10/BaseDatosProyect.git (https://github.com/MigueV10/BaseDatosProyect.git: git-receive-pack not permitted on 'https://github.com/MigueV10/BaseDatosProyect.git/')
+
+!ENTRY org.eclipse.egit.core 4 0 2025-05-28 19:33:36.784
+!MESSAGE An exception occurred during push on URI https://github.com/MigueV10/BaseDatosProyect.git: https://github.com/MigueV10/BaseDatosProyect.git: git-receive-pack not permitted on 'https://github.com/MigueV10/BaseDatosProyect.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/BaseDatosProyect.git: git-receive-pack not permitted on 'https://github.com/MigueV10/BaseDatosProyect.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:701)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-28 19:33:36.787
+!MESSAGE Can't connect to any repository: https://github.com/MigueV10/BaseDatosProyect.git (https://github.com/MigueV10/BaseDatosProyect.git: git-receive-pack not permitted on 'https://github.com/MigueV10/BaseDatosProyect.git/')
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-28 19:40:04.911
+!MESSAGE Classpath changed for project: crud_proyecto
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-28 19:40:05.400
+!MESSAGE close() called when useCnt is already zero for Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\proyecto\.git]
