@@ -2210,3 +2210,37 @@ Caused by: java.nio.file.FileSystemException: C:\Users\vespe\OneDrive\Escritorio
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-28 19:59:54.396
 !MESSAGE close() called when useCnt is already zero for Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Workspace-Temp\BaseDatosProyect\.git]
+
+!ENTRY org.eclipse.egit.core 4 0 2025-05-28 20:08:36.537
+!MESSAGE An exception occurred during push on URI https://github.com/MigueV10/ProjectFinal.git: https://github.com/MigueV10/ProjectFinal.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/ProjectFinal.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-28 20:08:36.538
+!MESSAGE Can't connect to any repository: https://github.com/MigueV10/ProjectFinal.git (https://github.com/MigueV10/ProjectFinal.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-05-28 20:09:15.121
+!MESSAGE An exception occurred during push on URI https://github.com/MigueV10/ProjectFinal.git: https://github.com/MigueV10/ProjectFinal.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/ProjectFinal.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-28 20:09:15.121
+!MESSAGE Can't connect to any repository: https://github.com/MigueV10/ProjectFinal.git (https://github.com/MigueV10/ProjectFinal.git: not authorized)
