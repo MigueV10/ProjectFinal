@@ -322,3 +322,5 @@
 2025-05-28 19:40:06,098 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-28 19:40:06,120 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
 2025-05-28 19:40:06,144 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-28 19:43:15,356 [Worker-114: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for [RepositoryHandle:Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Workspace-Temp\BaseDatosProyect\.git]]
+2025-05-28 19:59:54,395 [Worker-118: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Workspace-Temp\BaseDatosProyect\.git]

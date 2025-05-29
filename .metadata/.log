@@ -2207,3 +2207,6 @@ Caused by: java.nio.file.FileSystemException: C:\Users\vespe\OneDrive\Escritorio
 	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
 	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:219)
 	... 5 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-28 19:59:54.396
+!MESSAGE close() called when useCnt is already zero for Repository[C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Workspace-Temp\BaseDatosProyect\.git]
