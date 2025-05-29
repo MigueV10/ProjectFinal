@@ -1,0 +1,311 @@
+2025-05-09 16:09:54,008 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-05-09 16:10:33,447 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:facturacion:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\facturacion\pom.xml.
+2025-05-09 16:10:34,414 [Worker-14: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-05-09 16:10:35,876 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/main/java
+2025-05-09 16:10:35,879 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-09 16:10:35,881 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-09 16:10:35,883 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/test/java
+2025-05-09 16:10:35,884 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/test/resources
+2025-05-09 16:10:36,525 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-05-09 16:10:36,867 [Worker-32: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-09 16:10:38,110 [Worker-32: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:facturacion:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\facturacion\pom.xml.
+2025-05-09 16:10:38,793 [Worker-32: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-05-09 16:10:39,286 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/main/java
+2025-05-09 16:10:39,287 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-09 16:10:39,287 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-09 16:10:39,288 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/test/java
+2025-05-09 16:10:39,289 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/test/resources
+2025-05-09 16:10:39,844 [Worker-32: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-05-09 16:10:42,208 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-09 16:10:42,225 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-05-09 16:10:42,237 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\facturacion\src\test\resources
+2025-05-09 16:11:39,252 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-09 16:12:30,990 [Worker-38: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-09 16:12:32,638 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-09 16:12:32,640 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-09 16:12:32,653 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-09 16:12:32,656 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-09 16:12:32,657 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-09 16:12:33,025 [Worker-38: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-05-09 16:12:34,565 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-09 16:12:34,606 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-09 16:12:34,625 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-09 16:12:36,969 [Worker-16: Check for devtools] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-05-09 16:37:36,088 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-09 16:37:36,097 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-09 16:37:36,102 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-09 16:48:00,641 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-09 16:48:00,651 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-09 16:48:00,657 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-09 17:04:19,778 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-09 17:04:19,788 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-09 17:04:19,791 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-09 17:04:39,153 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-09 17:04:39,162 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-09 17:04:39,165 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-14 20:38:01,515 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-19 15:11:32,387 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-19 16:41:23,956 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 16:41:23,997 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 16:41:24,007 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 20:58:05,686 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 20:58:05,696 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 20:58:05,701 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 20:58:26,524 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 20:58:26,532 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 20:58:26,536 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 20:59:43,317 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 20:59:43,326 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 20:59:43,333 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 21:11:45,048 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-19 21:12:52,657 [Worker-32: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:facturacion:0.0.1-SNAPSHOT @ C:\Users\vespe\Documents\proyecto-main (1)\proyecto-main\facturacion\pom.xml.
+2025-05-19 21:12:53,231 [Worker-32: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-05-19 21:12:54,155 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/main/java
+2025-05-19 21:12:54,157 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-19 21:12:54,173 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-19 21:12:54,179 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/test/java
+2025-05-19 21:12:54,180 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/test/resources
+2025-05-19 21:12:54,612 [Worker-32: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-05-19 21:12:56,262 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 21:12:56,313 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-05-19 21:12:56,335 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\Documents\proyecto-main (1)\proyecto-main\facturacion\src\test\resources
+2025-05-19 21:15:13,187 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:facturacion:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\facturacion\pom.xml.
+2025-05-19 21:15:13,554 [Worker-0: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-05-19 21:15:13,961 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/main/java
+2025-05-19 21:15:13,962 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-19 21:15:13,963 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/main/resources
+2025-05-19 21:15:13,963 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /facturacion/src/test/java
+2025-05-19 21:15:13,964 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /facturacion/src/test/resources
+2025-05-19 21:15:14,194 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2025-05-19 21:15:15,152 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 21:15:15,166 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-05-19 21:15:15,179 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\Proyecto\facturacion\src\test\resources
+2025-05-19 21:17:16,286 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-19 21:17:16,784 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-19 21:17:17,636 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-19 21:17:17,636 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-19 21:17:17,637 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-19 21:17:17,638 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-19 21:17:17,638 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-19 21:17:18,230 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-19 21:17:19,183 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 21:17:19,203 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 21:17:19,226 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 21:26:00,065 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 21:26:00,072 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 21:26:00,079 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 21:45:26,445 [Worker-0: Launching crud_proyecto - CrudProyectoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 21:45:26,454 [Worker-0: Launching crud_proyecto - CrudProyectoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 21:45:26,460 [Worker-0: Launching crud_proyecto - CrudProyectoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 22:06:31,119 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 22:06:31,129 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-19 22:06:31,137 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-19 22:13:43,584 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-19 22:25:03,634 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-20 00:04:14,399 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-20 00:04:14,444 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-20 00:04:14,451 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-20 18:55:42,094 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-22 10:18:26,766 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-22 15:08:55,820 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-22 16:02:23,422 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-22 16:02:23,478 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-22 16:02:23,493 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-26 20:06:26,490 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-26 20:10:20,439 [Worker-39: Launching crud_proyecto - CrudProyectoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-26 20:10:20,505 [Worker-39: Launching crud_proyecto - CrudProyectoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-26 20:10:20,533 [Worker-39: Launching crud_proyecto - CrudProyectoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-26 21:06:25,402 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-26 21:06:25,413 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-26 21:06:25,419 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-26 21:14:57,508 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-26 21:14:57,514 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-26 21:14:57,519 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 00:26:15,137 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 00:26:15,157 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 00:26:15,188 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 00:28:19,100 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 00:28:19,111 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 00:28:19,117 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 00:33:35,493 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 00:33:35,500 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 00:33:35,507 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 00:37:50,409 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 00:37:50,411 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 00:37:50,426 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 00:38:38,084 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-27 00:38:39,335 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-27 00:38:40,347 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-27 00:38:40,349 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 00:38:40,350 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 00:38:40,350 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-27 00:38:40,351 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-27 00:38:40,769 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-05-27 00:38:41,318 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 00:38:41,333 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 00:38:41,352 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 00:42:27,252 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-27 01:09:15,651 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:09:15,685 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:09:15,700 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:09:32,644 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:09:32,651 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:09:32,657 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:11:16,100 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:11:16,108 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:11:16,113 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:11:21,397 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:11:21,404 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:11:21,410 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:15:07,181 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:15:07,187 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:15:07,190 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:18:43,015 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:18:43,023 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:18:43,030 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:18:59,045 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:18:59,056 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:18:59,079 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:19:14,086 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-27 01:19:15,171 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-27 01:19:16,199 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-27 01:19:16,201 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 01:19:16,202 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 01:19:16,202 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-27 01:19:16,204 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-27 01:19:16,631 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-27 01:19:17,240 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:19:17,262 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:19:17,289 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:27:07,339 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:27:07,349 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:27:07,352 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:31:04,594 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:31:04,601 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:31:04,605 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:33:48,380 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:33:48,386 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:33:48,390 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:36:29,773 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:36:29,780 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:36:29,785 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:36:46,150 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-27 01:36:47,048 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-27 01:36:48,002 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-27 01:36:48,004 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 01:36:48,005 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 01:36:48,005 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-27 01:36:48,006 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-27 01:36:48,373 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-27 01:36:49,060 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:36:49,074 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:36:49,089 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:38:52,132 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:38:52,134 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:38:52,144 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 01:39:17,343 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-27 01:39:17,777 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-27 01:39:18,501 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-27 01:39:18,502 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 01:39:18,502 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 01:39:18,503 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-27 01:39:18,505 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-27 01:39:18,801 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-27 01:39:19,266 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 01:39:19,281 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 01:39:19,300 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 18:48:33,991 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-27 19:07:10,478 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:07:10,515 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:07:10,532 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:07:38,221 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:07:38,268 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:07:38,285 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:08:10,431 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-27 19:08:11,408 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-27 19:08:12,591 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-27 19:08:12,593 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 19:08:12,595 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 19:08:12,596 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-27 19:08:12,597 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-27 19:08:13,184 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-27 19:08:14,203 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:08:14,225 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:08:14,251 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:14:01,716 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:14:01,736 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:14:01,748 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:14:26,988 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:14:26,996 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:14:27,002 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:33:08,330 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:33:08,349 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:33:08,361 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:44:50,090 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:44:50,110 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:44:50,125 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 19:57:16,653 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 19:57:16,672 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 19:57:16,680 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 21:14:32,526 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 21:14:32,528 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 21:14:32,540 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 21:14:39,524 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-27 21:14:40,208 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-27 21:14:41,020 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-27 21:14:41,021 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 21:14:41,022 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-27 21:14:41,022 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-27 21:14:41,022 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-27 21:14:41,492 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-27 21:14:42,130 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 21:14:42,149 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 21:14:42,168 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 22:07:32,366 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 22:07:32,388 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 22:07:32,395 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 23:59:47,294 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 23:59:47,310 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 23:59:47,314 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-27 23:59:51,464 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-27 23:59:51,474 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-27 23:59:51,479 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-28 00:05:12,721 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-28 00:05:13,185 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-28 00:05:14,055 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-28 00:05:14,056 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-28 00:05:14,056 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-28 00:05:14,057 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-28 00:05:14,058 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-28 00:05:14,534 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-28 00:05:15,527 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-28 00:05:15,558 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-28 00:05:15,613 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-28 02:05:08,283 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-28 02:05:08,876 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-28 02:05:09,669 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-28 02:05:09,669 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-28 02:05:09,670 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-28 02:05:09,670 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-28 02:05:09,671 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-28 02:05:10,168 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-28 02:05:10,842 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-28 02:05:10,857 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-28 02:05:10,881 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-28 13:12:57,979 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-28 13:12:58,911 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderhouse:crud_proyecto:0.0.1-SNAPSHOT @ C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\pom.xml.
+2025-05-28 13:13:00,158 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/main/java
+2025-05-28 13:13:00,159 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-28 13:13:00,160 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/main/resources
+2025-05-28 13:13:00,161 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud_proyecto/src/test/java
+2025-05-28 13:13:00,162 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud_proyecto/src/test/resources
+2025-05-28 13:13:00,648 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-05-28 13:13:01,356 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-28 13:13:01,380 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-28 13:13:01,406 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-28 14:18:20,951 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-28 14:18:20,971 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-28 14:18:20,999 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
+2025-05-28 19:08:16,828 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-28 19:08:16,840 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-05-28 19:08:16,848 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\vespe\OneDrive\Escritorio\ProyectosPersonales\Curso-Coder-Java\proyecto-main\crud_proyecto\src\test\resources
