@@ -64,16 +64,17 @@ async function deleteCliente(id) {
   }
 }
 
-document.getElementById("actualizarClienteForm").addEventListener("submit", async (e) => {
+document.getElementById("actualizarClienteFormNuevo").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const id = document.getElementById("updateId").value;
-  let data;
-  try {
-    data = JSON.parse(document.getElementById("updateData").value);
-  } catch (err) {
-    alert("JSON inválido. Por favor, verifica el formato.");
-    return;
-  }
+  const id = document.getElementById("updateIdNuevo").value;
+
+  const data = {
+    nombre: document.getElementById("updateNombre").value,
+    apellido: document.getElementById("updateApellido").value,
+    email: document.getElementById("updateEmail").value,
+    ine: document.getElementById("updateIne").value,
+    numCliente: document.getElementById("updateNumCliente").value
+  };
 
   try {
     const res = await fetch(`${apiBase}/clientes/${id}`, {
@@ -81,14 +82,16 @@ document.getElementById("actualizarClienteForm").addEventListener("submit", asyn
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
     });
+
     if (!res.ok) throw new Error("Error al actualizar cliente");
     const clienteActualizado = await res.json();
     document.getElementById("actualizarClienteResumen").textContent = `Cliente actualizado: ${JSON.stringify(clienteActualizado, null, 2)}`;
     getClientes();
   } catch (error) {
-    alert(error.message);
+    alert("❌ Error actualizando cliente: " + error.message);
   }
 });
+
 // ------------------------ PRODUCTOS ------------------------
 document.getElementById("productoForm").addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -122,11 +125,12 @@ async function getProductos() {
   const list = document.getElementById("productoList");
   list.innerHTML = productos.map(p => `
     <div>
-      <strong>${p.titulo}</strong> - $${p.precio} - Stock: ${p.stock}
+      <strong>ID: ${p.id}</strong> | ${p.titulo} - $${p.precio} - Stock: ${p.stock}
       <button onclick="deleteProducto(${p.id})">Eliminar</button>
     </div>
   `).join('');
 }
+
 
 async function deleteProducto(id) {
   try {
@@ -139,16 +143,15 @@ async function deleteProducto(id) {
   }
 }
 
-document.getElementById("actualizarProductoForm").addEventListener("submit", async (e) => {
+document.getElementById("actualizarProductoFormNuevo").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const id = document.getElementById("productoIdUpdate").value;
-  let data;
-  try {
-    data = JSON.parse(document.getElementById("productoDataUpdate").value);
-  } catch (err) {
-    alert("JSON inválido");
-    return;
-  }
+  const id = document.getElementById("productoIdUpdateNuevo").value;
+  const data = {
+    titulo: document.getElementById("updateTitulo").value,
+    descripcion: document.getElementById("updateDescripcion").value,
+    precio: parseFloat(document.getElementById("updatePrecio").value),
+    stock: parseInt(document.getElementById("updateStock").value)
+  };
 
   try {
     const res = await fetch(`${apiBase}/productos/${id}`, {
@@ -157,13 +160,16 @@ document.getElementById("actualizarProductoForm").addEventListener("submit", asy
       body: JSON.stringify(data)
     });
     if (!res.ok) throw new Error("Error al actualizar producto");
-    const productoActualizado = await res.json();
-    document.getElementById("actualizarProductoResumen").textContent = `Producto actualizado: ${JSON.stringify(productoActualizado, null, 2)}`;
+    const prod = await res.json();
+    document.getElementById("actualizarProductoResumen").textContent = `✅ Producto actualizado:\n${JSON.stringify(prod, null, 2)}`;
     getProductos();
   } catch (error) {
-    alert(error.message);
+    alert("❌ Error: " + error.message);
   }
 });
+
+
+
 
 // ------------------------ CATEGORÍAS ------------------------
 document.getElementById("categoriaForm").addEventListener("submit", async (e) => {
@@ -208,6 +214,31 @@ document.getElementById("eliminarCategoriaForm").addEventListener("submit", asyn
   }
 });
 
+
+
+document.getElementById("actualizarCategoriaFormNuevo").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const id = document.getElementById("categoriaIdUpdateNuevo").value;
+  const data = {
+    nombre: document.getElementById("categoriaNombreUpdate").value
+  };
+
+  try {
+    const res = await fetch(`${apiBase}/categoria/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    });
+    if (!res.ok) throw new Error("Error al actualizar categoría");
+    const cat = await res.json();
+    document.getElementById("actualizarCategoriaResumen").textContent = `✅ Categoría actualizada:\n${JSON.stringify(cat, null, 2)}`;
+    getCategorias();
+  } catch (error) {
+    alert("❌ Error: " + error.message);
+  }
+});
+
+
 function asignarCategoria() {
     const productoId = document.getElementById("productoId").value;
     const categoriaId = document.getElementById("categoriaId").value;
@@ -237,67 +268,27 @@ function asignarCategoria() {
         document.getElementById("respuesta").textContent = "Error: " + error.message;
     });
 }
-
-document.getElementById("actualizarCategoriaForm").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const id = document.getElementById("categoriaIdUpdate").value;
-  let data;
-  try {
-    data = JSON.parse(document.getElementById("categoriaDataUpdate").value);
-  } catch (err) {
-    alert("JSON inválido");
-    return;
-  }
-
-  try {
-    const res = await fetch(`${apiBase}/categoria/${id}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data)
-    });
-
-    if (!res.ok) {
-      const errorText = await res.text();
-      throw new Error(`Error ${res.status}: ${errorText}`);
-    }
-
-    const categoriaActualizada = await res.json();
-    document.getElementById("actualizarCategoriaResumen").textContent = `Categoría actualizada: ${JSON.stringify(categoriaActualizada, null, 2)}`;
-    getCategorias();
-  } catch (error) {
-    document.getElementById("actualizarCategoriaResumen").textContent = error.message;
-  }
-});
 // ------------------------ VENTAS ------------------------
-document.getElementById("ventaForm").addEventListener("submit", async (e) => {
+function agregarLineaVenta() {
+  const cont = document.getElementById("productosVentaContainer");
+  const div = document.createElement("div");
+  div.classList.add("lineaVenta");
+  div.innerHTML = `
+    <input type="number" class="productoIdInput" placeholder="ID Producto" required />
+    <input type="number" class="cantidadInput" placeholder="Cantidad" required />
+  `;
+  cont.appendChild(div);
+}
+
+document.getElementById("ventaFormSimple").addEventListener("submit", async (e) => {
   e.preventDefault();
+  const clienteId = parseInt(document.getElementById("clienteVentaIdSimple").value);
+  const lineas = Array.from(document.querySelectorAll(".lineaVenta")).map(linea => ({
+    cantidad: parseInt(linea.querySelector(".cantidadInput").value),
+    producto: { productoId: parseInt(linea.querySelector(".productoIdInput").value) }
+  }));
 
-  let lineasVenta;
-
-  try {
-    lineasVenta = JSON.parse(document.getElementById("lineasVenta").value);
-  } catch {
-    alert("Formato JSON inválido en líneas de venta");
-    return;
-  }
-
-  const clienteIdRaw = document.getElementById("clienteVentaId").value;
-  const clienteId = parseInt(clienteIdRaw);
-  if (isNaN(clienteId)) {
-    alert("ID del cliente inválido");
-    return;
-  }
-
-  // ✅ Transformar la estructura del JSON antes de enviarlo
-  const data = {
-    cliente: { clienteId: clienteId },
-    lineas: lineasVenta.map(linea => ({
-      cantidad: linea.cantidad,
-      producto: { productoId: linea.producto.id }
-    }))
-  };
-
-  console.log("Enviando venta:", JSON.stringify(data, null, 2)); // Diagnóstico
+  const data = { cliente: { clienteId }, lineas };
 
   try {
     const res = await fetch(`${apiBase}/ventas`, {
@@ -305,20 +296,15 @@ document.getElementById("ventaForm").addEventListener("submit", async (e) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
     });
-
-    const resText = await res.text();
-
-    if (!res.ok) {
-      throw new Error(`Error al crear venta:\n${res.status} ${res.statusText}\n${resText}`);
-    }
-
-    const nuevaVenta = JSON.parse(resText);
-    document.getElementById("ventaResumen").textContent = `Venta creada:\n${JSON.stringify(nuevaVenta, null, 2)}`;
+    if (!res.ok) throw new Error("Error al crear venta");
+    const venta = await res.json();
+    document.getElementById("ventaResumen").textContent = `✅ Venta creada:\n${JSON.stringify(venta, null, 2)}`;
     getVentas();
   } catch (error) {
-    alert("❌ Error del servidor:\n" + error.message);
+    alert("❌ Error: " + error.message);
   }
 });
+
 
 async function getVentas() {
   const res = await fetch(`${apiBase}/ventas`);

@@ -73,6 +73,29 @@ ul {
 li {
   margin-bottom: 0.5rem;
 }
+ /*CAMBBIOS PARA EL ADMIN EN ACTUALIZAR CLIENTE*/
+.card input, .card select, .card textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.card button {
+  background-color: #1f8ee0;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #146fb8;
+}
+/*AQUI TERMINA*/
 
 /* Estilo para resumen */
 .resumen {
