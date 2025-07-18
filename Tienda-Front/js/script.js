@@ -26,6 +26,7 @@ document.getElementById("clienteForm").addEventListener("submit", async (e) => {
   }
 });
 
+//-LISTAR CLIENTES POR SU ID-//
 async function getClientes() {
   try {
     const res = await fetch(`${apiBase}/clientes`);
@@ -35,9 +36,11 @@ async function getClientes() {
     const list = document.getElementById("clienteList");
     list.innerHTML = clientes.map(c => `
       <div>
-        <strong>${c.nombre} ${c.apellido}</strong> - ${c.email}<br/>
-        <em>Puntos totales: ${c.puntosTotales}</em><br/>
+        <strong>ID: ${c.id} </strong> | <p>Nombre: </pS> ${c.nombre} ${c.apellido} - <br> Email: ${c.email}</br>
+        Puntos totales: ${c.puntosTotales}
+        <br>
         <button onclick="deleteCliente(${c.id})">Eliminar</button>
+        </br>
       </div>
       <hr/>
     `).join('');
@@ -91,6 +94,7 @@ document.getElementById("actualizarClienteFormNuevo").addEventListener("submit",
     alert("❌ Error actualizando cliente: " + error.message);
   }
 });
+
 
 // ------------------------ PRODUCTOS ------------------------
 document.getElementById("productoForm").addEventListener("submit", async (e) => {
