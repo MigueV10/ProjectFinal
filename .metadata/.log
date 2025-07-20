@@ -10376,3 +10376,117 @@ java.nio.file.AccessDeniedException: C:\Users\vespe\OneDrive\Escritorio\Proyecto
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-19 22:13:26.304
 !MESSAGE Boot project ADDED: Thymeleaf_CRUD
+
+!ENTRY org.eclipse.egit.core 4 0 2025-07-19 22:14:07.432
+!MESSAGE An exception occurred during push on URI https://github.com/MigueV10/ProjectFinal.git: https://github.com/MigueV10/ProjectFinal.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/ProjectFinal.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:758)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)
+	at org.eclipse.jgit.transport.TransportHttp.httpOpen(TransportHttp.java:1064)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:651)
+	... 8 more
+Caused by: java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)
+	at java.base/java.security.Provider$Service.newInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getDefault(Unknown Source)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnectionFactory$HttpClientSession.configure(HttpClientConnectionFactory.java:79)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnectionFactory$HttpClientSession.configure(HttpClientConnectionFactory.java:1)
+	at org.eclipse.jgit.transport.TransportHttp.httpOpen(TransportHttp.java:1062)
+	... 9 more
+Caused by: java.security.KeyManagementException: problem accessing trust store
+	at java.base/sun.security.ssl.SSLContextImpl$DefaultManagersHolder.<clinit>(Unknown Source)
+	at java.base/sun.security.ssl.SSLContextImpl$DefaultSSLContext.<init>(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.base/java.security.Provider$Service.newInstanceOf(Unknown Source)
+	at java.base/java.security.Provider$Service.newInstanceUtil(Unknown Source)
+	at java.base/java.security.Provider$Service.newInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getDefault(Unknown Source)
+	at java.base/javax.net.ssl.SSLSocketFactory.getDefault(Unknown Source)
+	at java.base/javax.net.ssl.HttpsURLConnection.getDefaultSSLSocketFactory(Unknown Source)
+	at java.base/javax.net.ssl.HttpsURLConnection.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.Handler.openConnection(Unknown Source)
+	at java.base/sun.net.www.protocol.https.Handler.openConnection(Unknown Source)
+	at java.base/java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:161)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:135)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:119)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	... 1 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-07-19 22:14:07.433
+!MESSAGE Can't connect to any repository: https://github.com/MigueV10/ProjectFinal.git (https://github.com/MigueV10/ProjectFinal.git: cannot open git-receive-pack)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-07-19 22:14:42.264
+!MESSAGE An exception occurred during push on URI https://github.com/MigueV10/ProjectFinal.git: https://github.com/MigueV10/ProjectFinal.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/MigueV10/ProjectFinal.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:758)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)
+	at org.eclipse.jgit.transport.TransportHttp.httpOpen(TransportHttp.java:1064)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:651)
+	... 8 more
+Caused by: java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)
+	at java.base/java.security.Provider$Service.newInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getDefault(Unknown Source)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnectionFactory$HttpClientSession.configure(HttpClientConnectionFactory.java:79)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnectionFactory$HttpClientSession.configure(HttpClientConnectionFactory.java:1)
+	at org.eclipse.jgit.transport.TransportHttp.httpOpen(TransportHttp.java:1062)
+	... 9 more
+Caused by: java.security.KeyManagementException: problem accessing trust store
+	at java.base/sun.security.ssl.SSLContextImpl$DefaultManagersHolder.<clinit>(Unknown Source)
+	at java.base/sun.security.ssl.SSLContextImpl$DefaultSSLContext.<init>(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.base/java.security.Provider$Service.newInstanceOf(Unknown Source)
+	at java.base/java.security.Provider$Service.newInstanceUtil(Unknown Source)
+	at java.base/java.security.Provider$Service.newInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getInstance(Unknown Source)
+	at java.base/javax.net.ssl.SSLContext.getDefault(Unknown Source)
+	at java.base/javax.net.ssl.SSLSocketFactory.getDefault(Unknown Source)
+	at java.base/javax.net.ssl.HttpsURLConnection.getDefaultSSLSocketFactory(Unknown Source)
+	at java.base/javax.net.ssl.HttpsURLConnection.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.Handler.openConnection(Unknown Source)
+	at java.base/sun.net.www.protocol.https.Handler.openConnection(Unknown Source)
+	at java.base/java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:161)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:135)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:119)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	... 1 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-07-19 22:14:42.265
+!MESSAGE Can't connect to any repository: https://github.com/MigueV10/ProjectFinal.git (https://github.com/MigueV10/ProjectFinal.git: cannot open git-receive-pack)
