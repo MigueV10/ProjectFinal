@@ -1,0 +1,46 @@
+package com.coderhouse.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.coderhouse.services.ProductoServices;
+import com.coderhouse.services.VentaServices;
+
+@Controller
+public class HomeController {
+	
+	@Autowired
+	private ProductoServices productoServices;
+	@Autowired
+	private VentaServices ventaServices;
+	  @GetMapping("/")
+	    public String home() {
+	        return "redirect:/login";
+	    }
+
+	    @GetMapping("/dashboard")
+	    public String dashboard() {
+	        return "dashboard";
+	    }
+
+	    @GetMapping("/admin")
+	    public String admin() {
+	        return "redirect:/admin/productos";
+	    }
+
+	    @GetMapping("/admin/productos")
+	    public String productos(Model model) {
+	        model.addAttribute("page", "productos");
+	        model.addAttribute("productos", productoServices.getAllProductos());
+	        return "admin-panel";
+	    }
+
+	    @GetMapping("/admin/ventas")
+	    public String ventas(Model model) {
+	        model.addAttribute("page", "ventas");
+	        model.addAttribute("ventas", ventaServices.getAllVentas());
+	        return "admin-panel";
+	    }
+}

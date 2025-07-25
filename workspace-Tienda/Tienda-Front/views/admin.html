@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Panel Administrador - Skypers</title>
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+  <header>
+    <h1>Panel de Administración</h1>
+    <button class="logout-btn" onclick="logout()">Cerrar sesión</button>
+  </header>
+
+  <nav class="admin-nav">
+    <div class="admin-card" onclick="loadModule('productos')">
+      <h2>🛒 Productos</h2>
+      <p>CRUD de productos</p>
+    </div>
+    <div class="admin-card" onclick="loadModule('clientes')">
+      <h2>👥 Clientes</h2>
+      <p>CRUD de clientes</p>
+    </div>
+    <div class="admin-card" onclick="loadModule('categorias')">
+      <h2>📁 Categorías</h2>
+      <p>CRUD de categorías</p>
+    </div>
+    <div class="admin-card" onclick="loadModule('ventas')">
+      <h2>💰 Ventas</h2>
+      <p>CRUD de ventas</p>
+    </div>
+  </nav>
+
+  <section id="adminContent" class="admin-content">
+    <!-- Aquí se cargan los módulos -->
+    <p class="placeholder">Selecciona una sección para comenzar</p>
+  </section>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>

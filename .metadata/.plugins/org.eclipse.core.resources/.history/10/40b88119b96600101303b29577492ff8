@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Skypers</title>
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Bienvenido a Tienda Tecnológica Skypers</h1>
+    <p>Esto es tu panel de usuario.</p>
+    <a th:href="@{/admin}" class="btn btn-primary">Ir al Panel Administrativo</a>
+  </div>
+</body>
+</html>

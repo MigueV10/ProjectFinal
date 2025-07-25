@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot Backend",
+      "request": "launch",
+      "mainClass": "com.coderhouse.CrudProyectoApplication",
+      "projectName": "crud_proyecto"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Abrir panel en Chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/Tienda-Front"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "🔁 Backend + Navegador → ¡Para levantar ambos de un jalón!",
+      "configurations": ["Spring Boot Backend", "Abrir panel en Chrome"]
+    }
+  ]
+}

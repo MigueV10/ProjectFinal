@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "crud_proyecto"
+		},
+		{
+			"path": "Tienda-Front"
+		},
+		{
+			"path": "../.vscode"
+		}
+	],
+	"settings": {}
+}

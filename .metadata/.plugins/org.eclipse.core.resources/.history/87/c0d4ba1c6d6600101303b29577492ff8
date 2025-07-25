@@ -1,0 +1,52 @@
+package com.coderhouse.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.coderhouse.dtos.UsuarioDTO;
+import com.coderhouse.models.Usuario;
+import com.coderhouse.services.UsuarioServices;
+
+@RequestMapping("/login")
+@Controller
+public class UsuarioController {
+
+	@Autowired
+	private UsuarioServices usuarioServices;
+
+	@GetMapping("/login")
+	public String mostrarLogin(Model model) {
+		model.addAttribute("usuario", new UsuarioDTO());
+		return "login";
+	}
+
+	@PostMapping("/login")
+	public String login(@ModelAttribute("usuario") UsuarioDTO dto) {
+		return usuarioServices.autenticar(dto).isPresent()
+				? "redirect:/usuario/dashboard"
+				: "redirect:/login?error=true";
+	}
+
+	@GetMapping("/register")
+	public String mostrarRegistro(Model model) {
+		model.addAttribute("usuario", new Usuario());
+		return "register";
+	}
+
+	@PostMapping("/register")
+	public String registrar(@ModelAttribute("usuario") Usuario usuario) {
+		return usuarioServices.registrar(usuario)
+				? "redirect:/login"
+				: "redirect:/register?error=true";
+	}
+
+	@GetMapping("/usuario/dashboard")
+	public String dashboardUsuario() {
+		return "dashboard";
+	}
+}

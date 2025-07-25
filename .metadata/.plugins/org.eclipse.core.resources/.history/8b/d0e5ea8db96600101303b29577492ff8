@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>…bootstrap…</head>
+<body class="bg-light">
+<script>
+  const role = sessionStorage.getItem('role');
+  if (!role || role !== 'admin') window.location.href = '/login';
+</script>
+<nav>…</nav>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card mb-4">
+        <img src="/images/producto.jpg" class="card-img-top" alt="Productos">
+        <div class="card-body">
+          <a th:href="@{/admin/productos}" class="btn btn-primary btn-block">Productos</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4">
+        <img src="/images/categoria.jpg" class="card-img-top" alt="Categorías">
+        <div class="card-body">
+          <a th:href="@{/admin/categorias}" class="btn btn-primary btn-block">Categorías</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4">
+        <img src="/images/cliente.jpg" class="card-img-top" alt="Clientes">
+        <div class="card-body">
+          <a th:href="@{/admin/clientes}" class="btn btn-primary btn-block">Clientes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4">
+        <img src="/images/venta.jpg" class="card-img-top" alt="Ventas">
+        <div class="card-body">
+          <a th:href="@{/admin/ventas}" class="btn btn-primary btn-block">Generar Venta</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel de gestión según page -->
+  <div th:switch="${page}">
+    <div th:case="'productos'" th:replace="fragments/productos-list :: listaProductos"></div>
+    <div th:case="'categorias'" th:replace="fragments/categorias-list :: listaCategorias"></div>
+    <div th:case="'clientes'" th:replace="fragments/clientes-list :: listaClientes"></div>
+    <div th:case="'ventas'" th:replace="fragments/ventas-list :: listaVentas"></div>
+  </div>
+</div>
+</body>
+</html>
+

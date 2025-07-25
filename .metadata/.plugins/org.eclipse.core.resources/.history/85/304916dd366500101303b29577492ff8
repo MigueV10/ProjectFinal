@@ -1,0 +1,27 @@
+package com.coderhouse.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.coderhouse.models.Usuario;
+import com.coderhouse.repositories.UsarioRepository;
+
+@Service
+public class UsuarioServices {
+
+	@Autowired
+	private UsarioRepository usuarioRepository;
+	
+	public boolean registrar(Usuario usuario) {
+		Optional<Usuario> existente= usuarioRepository.findByEmail(usuario.getEmail());
+		if (existente.isPresent())return false;
+		usuarioRepository.save(usuario);
+		return true;
+		
+	}
+	public Optional<Usuario> autenticar(UsuarioDTO dto){
+		return usuarioRepository)
+	}
+}

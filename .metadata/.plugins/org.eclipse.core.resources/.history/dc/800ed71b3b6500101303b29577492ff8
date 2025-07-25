@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panel de Usuario</title>
+</head>
+<body>
+  <h1>Bienvenido a Tienda Skypers</h1>
+  <p>Este es tu panel de inicio</p>
+</body>
+</html>
